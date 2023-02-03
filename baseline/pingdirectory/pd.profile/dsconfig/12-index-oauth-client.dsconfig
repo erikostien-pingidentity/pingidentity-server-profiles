@@ -19,7 +19,3 @@ dsconfig create-local-db-index \
   --backend-name userRoot \
   --index-name pf-oauth-client-last-modified \
   --set index-type:ordering
-
-dsconfig set-virtual-attribute-prop \
-  --name "Password Policy State JSON" \
-  --set enabled:true
